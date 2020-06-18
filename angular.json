@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            
             "outputPath": "dist/authentication",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "authentication"
+    }
+  },
+  "defaultProject": "authentication",
+  "cli": {
+    "analytics": "5ffd6eaf-5522-4d6a-9c4c-77bc41f971c6"
+  }
 }
